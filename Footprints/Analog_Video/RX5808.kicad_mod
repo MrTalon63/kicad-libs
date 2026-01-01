@@ -4,21 +4,28 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -16.4 0)
+		(at 0 -13.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "3c14662f-5ab5-4119-a866-0453087ae643")
 		(effects
-			(font (size 1 1) (thickness 0.1))
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
 		)
 	)
 	(property "Value" "RX5808"
 		(at 0 -14.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "eb4c98ce-9a47-4a30-821b-8f995925c0d6")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Datasheet" ""
@@ -28,7 +35,10 @@
 		(hide yes)
 		(uuid "b8a45adf-76d4-4cb5-9902-3d12538df028")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Description" ""
@@ -38,25 +48,63 @@
 		(hide yes)
 		(uuid "cc6a6fe5-f60b-43c4-8f42-bd71aa528605")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(attr smd)
-	(fp_rect
+	(fp_line
 		(start -13.9 -11.7)
-		(end 14.1 11.3)
-		(stroke (width 0.1) (type default))
-		(fill no)
+		(end -13.9 4.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
 		(layer "F.SilkS")
-		(uuid "06dd4b32-701d-49b8-b057-3c815b19f252")
+		(uuid "48fad503-a171-47a2-9f41-2df0d4d481cd")
+	)
+	(fp_line
+		(start -13.9 11.3)
+		(end 14.1 11.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "20c189d4-16fe-48e8-a45b-56ab7ead0f3f")
+	)
+	(fp_line
+		(start 14.1 -11.7)
+		(end -13.9 -11.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d4b69f2c-86df-4c82-a931-dfea55721ff7")
+	)
+	(fp_line
+		(start 14.1 -11.7)
+		(end 14.1 -11.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "71f6c0e6-282a-4919-9cc5-b73c5229fe36")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -13.4 0)
+		(at 0 12.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f85b90ff-b925-4e8e-976d-8d3efc32d57b")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(pad "1" smd roundrect
