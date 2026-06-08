@@ -49,20 +49,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "E220-400MM22S_0_1"
+		(symbol "E220-400MM22S_1_1"
 			(rectangle
 				(start -7.62 10.16)
-				(end 7.62 -11.43)
+				(end 7.62 -12.7)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "E220-400MM22S_1_1"
 			(pin power_in line
 				(at -10.16 7.62 0)
 				(length 2.54)
